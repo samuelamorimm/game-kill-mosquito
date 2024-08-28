@@ -1,14 +1,18 @@
 html {
     cursor: url(imagens/mata_mosca.png) 30 30, auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background-image: url(imagens/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    overflow-x: hidden;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
 }
 
 button, select {
@@ -21,6 +25,7 @@ button, select {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100dvh;
 }
 
 .mosquito1 {
